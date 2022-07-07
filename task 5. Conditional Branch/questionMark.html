@@ -1,0 +1,22 @@
+<!doctype html>
+
+<html>
+  <body>
+    
+    <script> 
+    "use strict";
+    let a = prompt("Gimme a", "");
+    let b = prompt("Gimme b", "");
+    let result = (+a + +b < 4) ? "Little" : "A lot";
+    alert(result);
+
+    let login = prompt("Who are you?", "");
+    let message = (login == 'Сотрудник') ? 'Привет':
+    (login == 'Директор') ? 'Здравствуйте':
+    (login == '') ? 'Нет логина':
+    '';
+    alert(message);
+    </script>
+
+  </body>
+</html>
